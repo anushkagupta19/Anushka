@@ -1,0 +1,16 @@
+#include<iostream>
+using  namespace std;
+int main(){
+    int n;
+    
+    int factorial=1;
+    int i=1;
+    cin>>n;
+    while( i<=n){
+      // cout<<" value of fact is : "<< fact <<endl; 
+        factorial=factorial*i;
+        i++;
+    }
+    // i=i+1;
+    cout<<" factorial is : "<< factorial <<endl;
+}
