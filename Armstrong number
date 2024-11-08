@@ -1,0 +1,25 @@
+//Armstrong number 
+
+#include<iostream>
+using namespace std;
+int main(){
+    int num;
+    cin>>num;
+    int original=num;
+    int sum=0;
+
+    while( num>0){
+        int digit=num%10;
+        sum=sum+( digit*digit*digit);
+
+        num=num/10;
+    } 
+    if( sum==original)
+       cout<<"Armstrong number "<<endl;
+    else 
+         cout<<" not an Armstrong number "<<endl;
+    
+    
+    
+    return 0;
+    }
