@@ -1,0 +1,22 @@
+//write a program to insert an element in array
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[6],i,element;
+    cout<<" enter 5  element in array";
+    
+    for(i=0;i<5;i++)
+    cin>>arr[i];
+    cout<<" enter element to insert ";
+    cin>>element;
+    arr[i]=element;
+    
+    cout<<" the new array is "<<endl;
+    
+    for(i=0;i<6;i++)
+        cout<<arr[i]<<" ";
+     
+     cout<<endl;
+    
+    return 0;
+}
