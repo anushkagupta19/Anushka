@@ -1,0 +1,13 @@
+// Find surface area of sphere = 4pir^2
+#include<iostream>
+using namespace std;
+int main(){
+    double pi = 3.14;
+    int radiuses ;
+    cout<<" enter the value of radius "<<endl;
+    cin>>radiuses;
+    int radius =radiuses* radiuses;
+    double surface = 4* pi* radius ;
+
+    cout<<" surface area of sphere "<< surface<<endl;
+}
