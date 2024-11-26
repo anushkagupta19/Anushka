@@ -1,0 +1,28 @@
+// Accept the parameters and calculate the Compound Interest & print it
+#include<iostream>
+using namespace std;
+int main(){
+    
+double principal, rate, time, periods;
+
+    cout << "Enter the principal amount: ";
+    cin >> principal;
+
+    cout << "Enter the annual interest rate (in %): ";
+    cin >> rate;
+
+    cout << "Enter the number of years: ";
+    cin >> time;
+
+    cout << "Enter the number of times interest is compounded per year: ";
+    cin >> periods;
+double amount = (1 + rate/time);
+double C = time * periods;
+doub
+
+    int CI = (principal *(1 + rate/time)^(time* period)-principal);
+
+
+
+}
+
