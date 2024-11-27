@@ -18,9 +18,9 @@ double principal, rate, time, periods;
     cin >> periods;
 double amount = (1 + rate/time);
 double C = time * periods;
-doub
 
-    int CI = (principal *(1 + rate/time)^(time* period)-principal);
+
+    int CI = (principal *(1 + rate/time)^(time* periods)-principal);
 
 
 
