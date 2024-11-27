@@ -1,0 +1,30 @@
+//linear code using vetors 
+#include<iostream>
+#include<vector>
+using namespace std;
+int linearsearch( vector<int>&v,int search){
+    for(int i=0 ; i<v.size() ; i++){
+        if(v[i]==search){
+     return i;
+        }
+}    
+ return -1;
+}
+int main(){
+vector<int>vec={ 3 ,4 , 6 ,2};
+int searchnumber=9;
+
+
+int result=linearsearch(vec, searchnumber);
+
+
+if(result !=-1){
+cout<<" searchnumber "<< searchnumber <<" found at index "<< result<<endl;
+}else{
+  cout<<" searchnumber "<< searchnumber <<" not found "<< endl;
+  
+}
+return 0;
+
+}
+    
