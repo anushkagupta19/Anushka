@@ -1,0 +1,14 @@
+//Accept an integer and Print hello world n times
+
+#include<iostream>
+using namespace std;
+int main(){
+
+int n;
+cout<<" enter an number "<<endl;
+cin>>n;
+
+for(int i=0;i<n;i++){
+    cout<<" hello world"<<endl;
+}
+}
