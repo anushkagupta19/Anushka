@@ -1,0 +1,13 @@
+class Solution {
+public:
+    vector<int> getRow(int n) {
+        vector<int>vec(n+1);
+        unsigned long long int val=1;
+        vec[0]=vec[n]=1;
+        for(int r=1;r<n;r++){
+            val=val*(n-r+1)/r;
+            vec[r]=(int)val;
+        }
+        return vec;
+    }
+};
